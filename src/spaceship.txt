@@ -1,0 +1,22 @@
+
+Starfox like spaceship game
+
+
+---------------------------------
+Program:
+    Entity:
+        Ship:
+            Pos3D
+            VelocityMovement
+            PlayerInputComponent
+            SpaceshipComponent
+            GeoComponent
+            CameratargetComponent
+        Camera:
+            Pos3D
+            CameraComponent - camera3d from position
+            FollowCameraComponent - target movement smoothing
+        
+        
+        
+        
